@@ -21,12 +21,12 @@ public class SubChromeTest {
 	    Properties prop = new Properties();
 	    FileInputStream f = new FileInputStream("./data.properties");
 	    prop.load(f);
-	    String myIP = prop.getProperty("public_ip");
+	    //String myIP = prop.getProperty("public_ip");
  
-	    String myPort = prop.getProperty("tomcat_port");
-	    String myAppName = prop.getProperty("app_name");
-	    String myURL = "http://" + myIP + ":" + myPort + "/" + myAppName;
-	    //String myURL = "http://130.211.229.175:9090/calculator/";
+	    //String myPort = prop.getProperty("tomcat_port");
+	    //String myAppName = prop.getProperty("app_name");
+	    //String myURL = "http://" + myIP + ":" + myPort + "/" + myAppName;
+	    String myURL = "http://35.224.111.85:9090/calculator/";
 	    System.out.println("Opening " + myURL);
 	    
 		System.setProperty("webdriver.chrome.driver","/home/edureka/Downloads/chromedriver");
