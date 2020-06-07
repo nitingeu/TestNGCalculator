@@ -32,10 +32,10 @@ public class CalcTest
 		    myIP=System.getenv("MY_IP");
 	    }
 	    
-	    //String myPort = prop.getProperty("tomcat_port");
-	    //String myAppName = prop.getProperty("app_name");
-	    //String myURL = "http://" + myIP + ":" + myPort + "/" + myAppName;
-	    String myURL = "http://35.224.111.85:9090/calculator/";
+	    String myPort = prop.getProperty("tomcat_port");
+	    String myAppName = prop.getProperty("app_name");
+	    String myURL = "http://" + myIP + ":" + myPort + "/" + myAppName;
+	    //String myURL = "http://35.224.111.85:9090/calculator/";
 	    System.out.println("Opening " + myURL);
 	    
 	    FirefoxOptions options = new FirefoxOptions();
