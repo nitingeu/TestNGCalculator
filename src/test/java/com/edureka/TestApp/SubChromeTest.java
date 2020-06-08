@@ -29,7 +29,7 @@ public class SubChromeTest {
 	    //String myURL = "http://35.224.111.85:9090/calculator/";
 	    System.out.println("Opening " + myURL);
 	    
-		System.setProperty("webdriver.chrome.driver","/home/edureka/Downloads/chromedriver");
+		System.setProperty("webdriver.chrome.driver","/home/nitingeu/Downloads/chromedriver");
 		System.setProperty("webdriver.chrome.logfile", "chromedriver.log");
 	    System.setProperty("webdriver.chrome.verboseLogging", "true");
 		System.out.println("System.setProperty!!");
