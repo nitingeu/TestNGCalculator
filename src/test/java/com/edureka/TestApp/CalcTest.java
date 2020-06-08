@@ -71,7 +71,7 @@ public class CalcTest
 	    WebElement myElement = wait.until(ExpectedConditions.presenceOfElementLocated(By.id("s1")));
 	    
 	    myElement.click();
-	    //driver.findElement(By.id("s1")).click();
+	    driver.findElement(By.id("s1")).click();
 	    Thread.sleep(5000);
 	    
 	    bodyText = driver.findElement(By.xpath("/html/body")).getText();
